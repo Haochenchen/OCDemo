@@ -9,11 +9,11 @@
 #ifndef Macros_h
 #define Macros_h
 
-#define IS_IPHONE_X      ([[UIScreen mainScreen] bounds].size.height == 812.0f) ? YES : NO //是否是iPhone X
-#define Height_NavBar    (IS_IPHONE_X==YES)?88.0f : 64.0f//导航栏+ 电池栏高度 88/ 64
-#define Height_TabBar    (IS_IPHONE_X==YES)?83.0f : 49.0f//底部tabbar栏高度  83 / 49
-#define SAFE_TOP         (IS_IPHONE_X==YES)?44.0f : 0.0f//顶部安全区域高度 44
-#define SAFE_BOTTOM      (IS_IPHONE_X==YES)?34.0f : 0.0f//底部部安全区域高度 34
+#define kStatusBarHeight      [UIApplication sharedApplication].statusBarFrame.size.height //状态栏高度
+#define Height_NavBar    (kStatusBarHeight + 44.0f)//导航栏+ 状态栏高度 88/ 64
+#define Height_TabBar    (kStatusBarHeight == 44.0f ?83.0f : 49.0f)//底部tabbar栏高度  83 / 49
+#define SAFE_TOP         (kStatusBarHeight - 20.0f)//顶部安全区域高度 44
+#define SAFE_BOTTOM      [UIApplication sharedApplication].delegate.window.safeAreaInsets.bottom//底部安全区域高度
 
 #define SCREEN_HEIGHT    [[UIScreen mainScreen] bounds].size.height//屏幕高度
 #define SCREEN_WIDTH    [[UIScreen mainScreen] bounds].size.width//屏幕宽度

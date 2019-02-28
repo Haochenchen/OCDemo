@@ -46,7 +46,6 @@
 		4B57FBE82091662200A5D693 /* HCCBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B57FBE72091662200A5D693 /* HCCBaseController.m */; };
 		4B57FBEB2091673800A5D693 /* OCDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B57FBEA2091673800A5D693 /* OCDemoController.m */; };
 		4B57FBEE2091676500A5D693 /* HCCBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B57FBED2091676500A5D693 /* HCCBaseNavController.m */; };
-		4B57FC2E2091726C00A5D693 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B57FBF22091726B00A5D693 /* Info.plist */; };
 		4B57FC2F2091726C00A5D693 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B57FBF42091726B00A5D693 /* MASCompositeConstraint.m */; };
 		4B57FC302091726C00A5D693 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B57FBF72091726B00A5D693 /* MASConstraint.m */; };
 		4B57FC312091726C00A5D693 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B57FBF92091726B00A5D693 /* MASConstraintMaker.m */; };
@@ -187,7 +186,6 @@
 		4B57FBEA2091673800A5D693 /* OCDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCDemoController.m; sourceTree = "<group>"; };
 		4B57FBEC2091676500A5D693 /* HCCBaseNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCCBaseNavController.h; sourceTree = "<group>"; };
 		4B57FBED2091676500A5D693 /* HCCBaseNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCCBaseNavController.m; sourceTree = "<group>"; };
-		4B57FBF22091726B00A5D693 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B57FBF32091726B00A5D693 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		4B57FBF42091726B00A5D693 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
 		4B57FBF52091726B00A5D693 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -549,7 +547,6 @@
 		4B57FBF12091726B00A5D693 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
-				4B57FBF22091726B00A5D693 /* Info.plist */,
 				4B57FBF32091726B00A5D693 /* MASCompositeConstraint.h */,
 				4B57FBF42091726B00A5D693 /* MASCompositeConstraint.m */,
 				4B57FBF52091726B00A5D693 /* MASConstraint+Private.h */,
@@ -835,7 +832,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B57FC2E2091726C00A5D693 /* Info.plist in Resources */,
 				4B45372C209020D000CF370C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
